@@ -8,6 +8,12 @@ systemctl list-unit-files : See unit files and their states
 systemctl list-units : Show if units are loaded/active
 systemctl get – default : List default target (like run level)
 ```
+
+### Viewing a service file
+```
+systemctl cat <service>
+Example: systemctl cat haproxy
+```
 ### Working with Services
 ```
 systemctl stop service : Stop a running service
