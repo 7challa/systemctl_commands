@@ -22,6 +22,7 @@ systemctl restart service : Restart a running service
 systemctl reload service : Reload all config files in service
 systemctl status service : See if service is running/enabled
 systemctl enable service : Enable a service to start on boot
+systemctl enable service --now : Enable a service to start on boot and start the service NOW
 systemctl disable service : Disable service–won’t start at boot
 systemctl show service : Show properties of a service (or other unit)
 systemctl -H host status network : Run any systemctl command remotely
